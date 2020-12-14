@@ -62,7 +62,7 @@ void setup() {
   arcada.filesysBeginMSD();
 
   Serial.begin(115200);
-  while(!Serial) delay(10);       // Wait for Serial Monitor before continuing
+  //while(!Serial) delay(10);       // Wait for Serial Monitor before continuing
   Serial.println("foo");
 
 
